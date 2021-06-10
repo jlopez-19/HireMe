@@ -1,0 +1,213 @@
+h1 {
+    color: #00ffcc;
+    text-align: center;
+    font-size: 60px;
+}
+
+h1:hover {
+    color: #00ffcc;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #cc99ff, 0 0 20px #cc99ff, 0 0 30px #cc99ff, 0 0 40px #b366ff, 0 0 50px #b366ff, 0 0 60px #9933ff, 0 0 70px #9933ff;
+    }
+
+    to {
+        text-shadow: 0 0 20px #e6ccff, 0 0 30px #cc99ff, 0 0 40px #cc99ff, 0 0 50px #b366ff, 0 0 60px #b366ff, 0 0 70px #9933ff, 0 0 80px #9933ff;
+    }
+}
+
+::selection {
+    background-color: #00ffcc;
+    color: #6600ff;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+}
+
+a {
+    color: #e0ccff;
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 110%;
+}
+
+h3 {
+    color: #ffff1a;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 150%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: 1px;
+    border: 1px solid #000000;
+}
+
+h1 {
+    font-family: 'Big Shoulders Inline Text', cursive;
+}
+
+.container {
+    width: 300px;
+    height: 100px;
+    position: relative;
+    margin: 100px auto;
+    border-radius: 50px;
+    border: 3px dotted #eee;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+
+.dot {
+    position: absolute;
+    background: #6600ff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    top: 25px;
+    left: 25px;
+    opacity: 0.1;
+    transition: all 0.75s cubic-bezier(.71, 0, .33, 1.56) 0ms;
+}
+
+.container:hover .dot {
+    transform: rotate(360deg);
+    border-radius: 0%;
+    left: 225px;
+    background: #66ffcc;
+}
+
+.dot.two {
+    transition-delay: 3ms;
+}
+
+.dot.three {
+    transition-delay: 6ms;
+}
+
+.dot.four {
+    transition-delay: 9ms;
+}
+
+.dot.five {
+    transition-delay: 11ms;
+}
+
+.dot.six {
+    transition-delay: 14ms;
+}
+
+.dot.seven {
+    transition-delay: 17ms;
+}
+
+.dot.eight {
+    transition-delay: 20ms;
+}
+
+.dot.nine {
+    transition-delay: 23ms;
+}
+
+.dot.ten {
+    transition-delay: 26ms;
+}
+
+.dot.eleven {
+    transition-delay: 29ms;
+}
+
+.dot.twelve {
+    transition-delay: 32ms;
+}
+
+.dot.thirteen {
+    transition-delay: 35ms;
+}
+
+.dot.fourteen {
+    transition-delay: 38ms;
+}
+
+.dot.fifteen {
+    transition-delay: 41ms;
+}
+
+.dot.sixteen {
+    transition-delay: 44ms;
+}
+
+.dot.seventeen {
+    transition-delay: 47ms;
+}
+
+.dot.eighteen {
+    transition-delay: 50ms;
+}
+
+.dot.nineteen {
+    transition-delay: 53ms;
+}
+
+.dot.twenty {
+    transition-delay: 56ms;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.mve-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msc-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gme-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hbs-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
